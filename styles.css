@@ -1,0 +1,53 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+
+  --Stone100: hsl(30, 54%, 90%);
+  --Stone150: hsl(30, 18%, 87%);
+  --Stone600: hsl(30, 10%, 34%);
+  --Stone900: hsl(24, 5%, 18%);
+
+  --Brown800: hsl(14, 45%, 36%);
+
+  --Rose800: hsl(332, 51%, 32%);
+  --Rose50: hsl(330, 100%, 98%);
+
+  overflow-y: scroll;
+}
+
+body {
+  background-color: var(--white);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article {
+  background-color: var(--white);
+  width: 100%;
+  padding: 2rem;
+}
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 900px) {
+  body {
+    background-color: var(--Stone100);
+  }
+  article {
+    background-color: var(--white);
+    width: 60%;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 3%;
+  }
+}

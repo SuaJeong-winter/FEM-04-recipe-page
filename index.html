@@ -18,17 +18,9 @@
     />
 
     <title>Frontend Mentor | Recipe page</title>
+    <link rel="stylesheet" href="./styles.css" />
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 0.6875rem;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <main>
@@ -46,7 +38,7 @@
           choice of cheese, vegetables, or meats.</span
         >
 
-        <section>
+        <section class="makingTime">
           <h3>Preparation time</h3>
           <ul>
             <li>Total: Approximately 10 minutes</li>
@@ -54,7 +46,7 @@
             <li>Cooking: 5 minutes</li>
           </ul>
         </section>
-        <section>
+        <section class="ingredients">
           <h2>Ingredients</h2>
           <ul>
             <li>2-3 large eggs</li>
@@ -66,7 +58,7 @@
             </li>
           </ul>
         </section>
-        <section>
+        <section class="instructions">
           <h2>Instructions</h2>
           <ol>
             <li>
@@ -99,19 +91,32 @@
             </li>
           </ol>
         </section>
-        <section>
+        <section class="nutrition">
           <h2>Nutrition</h2>
           <span
             >The table below shows nutritional values per serving without the
             additional fillings.</span
           >
-          <!-- 아 이거 table로 수정해야겠다 -->
-          <ul>
-            <li>Calories 277kcal</li>
-            <li>Carbs 0g</li>
-            <li>Protein 20g</li>
-            <li>Fat 22g</li>
-          </ul>
+          <table>
+            <tbody>
+              <tr>
+                <th scope="row">Calories</th>
+                <td>277kcl</td>
+              </tr>
+              <tr>
+                <th scope="row">Carbs</th>
+                <td>0g</td>
+              </tr>
+              <tr>
+                <th scope="row">Protein</th>
+                <td>20g</td>
+              </tr>
+              <tr>
+                <th scope="row">Fat</th>
+                <td>22g</td>
+              </tr>
+            </tbody>
+          </table>
         </section>
       </article>
     </main>
