@@ -51,11 +51,11 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - 모바일 퍼스트 웹 개발을 고려- 하며 CSS와 HTML을 설계했습니다. I designed the HTML and CSS with mobile-first web development in mind.
 - 미디어쿼리를 사용하는 것을 연습했다. I practiced implementing responsive layouts using media queries.
 - scroll() 함수를 사용했다. I used scroll()
-- 이전에 받은 피드백들 반영
+- 이전에 받은 피드백들 반영 (태그보다는 클래스 선택자, BEM naming, 스크린리더를 고려한 alt,,,,etc)
 
 ### Continued development
 
-좀 더 responsive 한 화면을 만들예정.
+좀 더 responsive한 화면을 만들예정.
 
 ### Useful resources
 
