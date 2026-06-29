@@ -48,9 +48,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-모바일 퍼스트 웹 개발을 고러하며 CSS와 HTML을 설계했습니다. I designed the HTML and CSS with mobile-first web development in mind.
-미디어쿼리를 사용하는 것을 연습했다. I practiced implementing responsive layouts using media queries.
-scroll() 함수를 사용했다. I used scroll()
+- 모바일 퍼스트 웹 개발을 고려- 하며 CSS와 HTML을 설계했습니다. I designed the HTML and CSS with mobile-first web development in mind.
+- 미디어쿼리를 사용하는 것을 연습했다. I practiced implementing responsive layouts using media queries.
+- scroll() 함수를 사용했다. I used scroll()
+- 이전에 받은 피드백들 반영
 
 ### Continued development
 
